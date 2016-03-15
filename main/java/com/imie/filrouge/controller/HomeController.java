@@ -9,6 +9,8 @@ public class HomeController {
 
   @RequestMapping(value = "/")
   public String Home() {
+    //comm
+    
     return "redirect:acceuil";
   }
 
